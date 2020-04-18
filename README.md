@@ -1,5 +1,9 @@
 # pathfinder
 
+Un progetto creato con VueJS per la visualizzazione dell'algoritmo di Dijkstra (base).
+Verrà migliorata l'interfaccia grafica e implementato nuovi algoritmi.
+
+
 ## Project setup
 ```
 npm install
