@@ -120,6 +120,7 @@ export default {
     },
     modifyGrid(row, col, add) {
       if (!this.mouseLeftPressed && !this.mouseRightPressed) return;
+      if (this.isExecuting) return;
       if (this.griglia[row][col].isStart || this.griglia[row][col].isFinish)
         return;
       if (add) {
